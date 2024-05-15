@@ -119,9 +119,18 @@ a:hover {
   text-align: center;
 }
 
-/* add an animation to the social icons */
+/* identify the social icon with a large red border */
+.container .box img.socialIcon:hover {
+  border: 2px solid red;
+  border-radius: 50%;
+  transform: scale(1.1);
+}
+
+
 .container .box img.socialIcon {
-  animation: fadeIn 0.5s ease-in-out;
+  height: 30px;
+  width: 30px;
+  transition: transform 0.3s;
 }
 
 img.socialIcon {
