@@ -119,6 +119,11 @@ a:hover {
   text-align: center;
 }
 
+/* add an animation to the social icons */
+.container .box img.socialIcon {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
 img.socialIcon {
   height: 30px;
   width: 30px;
